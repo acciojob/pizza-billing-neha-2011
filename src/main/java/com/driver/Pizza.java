@@ -12,7 +12,7 @@ public class Pizza {
 
 
     public Pizza(Boolean isVeg) {
-
+         this.isVeg = isVeg;
 
         if (isVeg) {
             price = 300;
