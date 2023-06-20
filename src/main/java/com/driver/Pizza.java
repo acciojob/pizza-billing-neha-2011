@@ -37,7 +37,7 @@ public class Pizza {
         if(!containCheese){
             price += 80;
             this.containCheese = true;
-            setBill("Extra Cheese Added: ""80+\n");
+            setBill("Extra Cheese Added: "+80+"\n");
             }
 
     }
